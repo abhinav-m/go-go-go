@@ -28,6 +28,7 @@ func main() {
 	myMap := map[string]string{"a": "apple", "b": "banana"}
 
 	for k, v := range myMap {
+		// Formatting key value pairs
 		fmt.Printf("%s -> %s\n", k, v)
 	}
 	// Iterating only over keys
