@@ -30,6 +30,7 @@ func main() {
 	// Note ig still logs a value of 0 thus distinguishing empty key
 	fmt.Println("_", ig)
 
+	//Declaring and initializing a map together
 	n := map[string]int{"foo": 1, "bar": 2}
 
 	fmt.Println("map2", n)
