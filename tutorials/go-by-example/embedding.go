@@ -43,9 +43,13 @@ func main() {
 	// may be used to bestow
 	// interface implementations onto other structs
 	type describer interface {
+		// Adding method describe
+		// Which gives interface implementation
+		// for base to its implementors
 		describe() string
 	}
 
+	// DOUBT TODO
 	var d describer = co
 	fmt.Println("describer:", d.describe())
 }
