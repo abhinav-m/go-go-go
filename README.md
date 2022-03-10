@@ -4,6 +4,7 @@ BLOGS:
 * GO programming strings and literals https://go.dev/blog/strings
 * GO programming slices https://go.dev/blog/slices
 * GO interfaces https://jordanorelli.com/post/32665860244/how-to-use-interfaces-in-go
+* Go error handling https://go.dev/blog/error-handling-and-go
 
 **About strings and literals history**
 
