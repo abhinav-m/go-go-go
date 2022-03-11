@@ -39,5 +39,7 @@ func main() {
 	}
 	// Note total execution time is only ~2 seconds since
 	// both the 1 and 2 seconds sleep execute concurrently
+	// To run program in a timed manner use "time" keyword
+	// time go run select.go
 
 }
