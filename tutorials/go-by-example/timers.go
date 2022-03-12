@@ -33,12 +33,12 @@ func main() {
 	stop2 := timer2.Stop()
 
 	/*
-			Give the timer2 enough time to fire, if it ever was going to, to show it is in fact stopped.
+		Give the timer2 enough time to fire,
+		if it ever was going to, to show it is in fact stopped.
 
-		    time.Sleep(2 * time.Second)
-			}
-			The first timer will fire ~2s after we start the program,
-			 but the second should be stopped before it has a chance to fire
+
+		The first timer will fire ~2s after we start the program,
+		 but the second should be stopped before it has a chance to fire
 
 
 	*/
