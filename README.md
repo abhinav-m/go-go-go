@@ -5,6 +5,7 @@ BLOGS:
 * GO programming slices https://go.dev/blog/slices
 * GO interfaces https://jordanorelli.com/post/32665860244/how-to-use-interfaces-in-go
 * Go error handling https://go.dev/blog/error-handling-and-go
+* Mutexes https://en.wikipedia.org/wiki/Mutual_exclusion
 
 **About strings and literals history**
 
