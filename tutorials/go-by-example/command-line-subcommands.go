@@ -39,6 +39,7 @@ func main() {
 		fmt.Println("subcommand 'foo'")
 		fmt.Println("  enable:", *fooEnable)
 		fmt.Println("  name:", *fooName)
+		// Tailing positional arguments
 		fmt.Println("  tail:", fooCmd.Args())
 	case "bar":
 		barCmd.Parse(os.Args[2:])
